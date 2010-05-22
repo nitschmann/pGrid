@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/**
+ * pGrid - (X)HTML/CSS Framework
+ * 
+ * pGrid Basic-Stylesheet / Basis-Stylesheet
+ * 
+ * @copyright	Copyright 2008-2010, Parcydo <http://parcydo.com/>
+ * @author	Florian Nitschmann <florian.nitschmann@parcydo.com> 
+ * @license	Common Public License (CPL) 1.0 <http://www.opensource.org/licenses/cpl1.0.php>
+ * @link	http://pgrid.parcydo.com/
+ * @package pGrid
+ * @version	0.5 
+ */
+
+/*Import the example standart elements for layout adjustments | Importierung der standart Elemente für Layout Anpassungen*/
+@import url('elements.css');
+/*Import file for CSS3 support | Datei zur CSS3 Unterstützung*/
+@import url('css3.css');
+
+@media all {
+	/*Global reset of margins and padding | Globales Zurücksetzen von margins und paddings*/
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	/*Fix of global bugs with Italic in IE | Globale Italic Bugs des IEs werden gefixt*/
+	* html > body {
+		overflow: visible;
+	}
+	* html > iFrame, html > Frame {
+		overflow: auto;
+	}
+	* html > Frameset {
+		overflow: auto;
+	}
+	/*General settings for the body | Allgemeine Einstellungen für den body*/
+	body {
+		/*Set font size permanent to 100% | Schriftgröße permanent auf 100% setzen*/
+		font-size: 100%;
+		/*Standarts for colers and text alignment | Standarts für Farben und Textrichtung*/
+		text-align: left;
+		color: #000;
+		background: #fff;
+	}
+	/*No outline for DIV containers | Keine outline für DIV Container*/
+	div {
+		outline: none;
+	} 
+	/*Hide borders for <img> elements | Rahmen für <img> Elemente verbergen*/
+	img {
+		border: none;
+	}
+	/*new standart values for lists, blockqoutes & cite | Neue Standartwerte für Listen & Zitate*/
+	ul, ol, dl {
+		margin: 0 0 1% 1%;
+	}
+	li {
+		left: 1%; 
+		line-height: 2%;
+	}
+	
+	blockquote {
+		margin: 0 0 1% 0.8%;
+	}
+	
+	blockquote:before, blockquote:after {
+		content: "";
+	}
+	/*Links-------------------------------------------------------------------------------------------*/
+	
+	/*Global stylesetings for links | Globale Ausehenseigenschaften für Links*/
+	*:link {
+		font-weight: normal;
+		text-decoration: none;
+	}
+	
+	a {
+		font-weight: normal;
+		text-decoration: none;
+	}
+	a:focus, a:hover {
+		text-decoration: underline;
+	}
+	/*-------------------------------------------------------------------------------------------------*/
+}
+
+@media screen, projection {
+	/*
+	 * @section base | Basis
+	 * 
+	 * |------------------------------|
+	 * |                		  |  
+	 * | #header       		  |
+	 * |------------------------------|
+	 * | 	#col1	   |    #col2	  | 
+	 * |	50%        |	50%       |
+	 * |------------------------------|
+	 * | #footer                      |
+	 * |------------------------------|
+	 */
+	
+	header, #header {
+		position: relative;
+	}
+	#page {
+		width: 100%;
+	}
+	/*Correct positioning | Korrekte Positionierung*/
+	#header, #nav, #main, #page, #footer {
+		clear: both;
+	}
+	/*Subelements / Unterelemente------------------------------------------------------------------*/
+	 
+	/*
+	 * @section subelements 
+	 */
+	
+	.subelements {
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	.e5l, .e5r {width: 5%;}
+	.e10l, .e10r {width: 10%;}
+	.e15l, .e15r {width: 15%;}
+	.e20l, .e20r {width: 20%;}
+	.e25l, .e25r {width: 25%;}
+	.e30l, .e30r {width: 30%;}
+	.e33l, .e33r {width: 33.333%;}
+	.e35l, .e35r {width: 35%;}
+	.e38l, .e38r {width: 38%;}
+	.e40l, .e40r {width: 40%;}
+	.e45l, .e45r {width: 45%;}
+	.e50l, .e50r {width: 50%;}
+	.e55l, .e55r {width: 55%;}
+	.e60l, .e60r {width: 60%;}
+	.e62l, .e62r {width: 62%;}
+	.e65l, .e65r {width: 65%;}
+	.e66l, .e66r {width: 66.666%;}
+	.e70l, .e70r {width: 70%;}
+	.e75l, .e75r {width: 75%;}
+	.e80l, .e80r {width: 80%;}
+	.e85l, .e85r {width: 85%;}
+	.e90l, .e90r {width: 90%;}
+	.e95l, .e95r {width: 95%;}
+	/*Floating of the subelements | Fluss der Unterelemente*/
+	.e5l, .e10l, .e15l, .e20l, .e25l, .e30l, .e33l, .e35l, .e38l, .e40l, .e45l, .e50l, .e55l, .e60l, 
+	.e62l, .e65l, .e66l, .e70l, .e75l, .e80l, .e85l, .e90l, .e95l {
+		float: left;
+	}
+	.e5r, .e10r, .e15r, .e20r, .e25r, .e30r, .e33r, .e35r, .e38r, .e40r, .e45r, .e50r, .e55r, .e60r, 
+	.e62r, .e65r, .e66r, .e70r, .e75r, .e80r, .e85r, .e90r, .e95r {
+		float: right;
+	}
+	
+	.ecl {
+		padding: 0 0.75% 0 0; 
+	}
+	.ecr {
+		padding: 0 0 0 0.75%;
+	}
+		
+}
+
