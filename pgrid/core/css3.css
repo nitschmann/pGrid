@@ -49,7 +49,27 @@
     font-weight: normal;
     src: local('Inconsolata'), url('http://themes.googleusercontent.com/font?kit=J_eeEGgHN8Gk3Eud0dz8jw') format('truetype');
   }
-  
+  /*Lobster*/
+  @font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lobster'), url('http://themes.googleusercontent.com/font?kit=X-CahsKZZcJfSyZ_tX4ptg') format('truetype');
+  }
+  /*Reenie Beanie*/
+  @font-face {
+    font-family: 'Reenie Beanie';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Reenie Beanie'), url('http://themes.googleusercontent.com/font?kit=ljpKc6CdXusL1cnGUSamX_cCQibwlboQP4eCflnqtq0') format('truetype');
+  }
+  /*Tangerine*/
+  @font-face {
+    font-family: 'Tangerine';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Tangerine'), url('http://themes.googleusercontent.com/font?kit=_jMq7r9ahcBZZjpP8hftNA') format('truetype');
+  }
   
 }
 
