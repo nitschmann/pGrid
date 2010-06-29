@@ -1,0 +1,30 @@
+Changelog
+
+Changes in Version 0.2 [01.07.2010]
+--------------------------------
+
+General:
+	- Changed the License of the whole Framework from Common Public License (CPL) to MIT-License (MIT)
+	- Created one global README and LICENSE file in the root folder for all general questions about the framework and the license
+	- Complete change of the folder stucture, removed the "license" folder and named the "pGrid" folder into "src"
+	- Fixes of many little bugs and missunderstands in the framwork
+
+* /compressed:
+	- Got the whole framewrok from /src into a 10KB big file, possible to use all functions of pGrid
+
+* /doc:
+	- New documentation for the current version of pGrid as PDF files in German and English	
+
+* /examples:
+	- Created a full and new example folder, to show all main functions of pGrid
+
+* /src:
+	* /core:
+		core.css:
+			- Fixed some bugs, removed the unimportend classes .ecr and .ecl
+		css3.css:
+			- Added some additional fonts from the Google font directory for usage in layouts
+			- Fixed some bugs with rounded borders
+			- Added some new classes for rotation elements
+		
+	
