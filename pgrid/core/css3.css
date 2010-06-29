@@ -1,0 +1,226 @@
+@charset "UTF-8";
+/**
+ * pGrid | (X)HTML/CSS Framework
+ * 
+ * CSS 3 effect stylesheets | CSS 3 Effektstylesheets
+ * 
+ * @copyright	Copyright 2008-2010, Parcydo <http://parcydo.com> 
+ * @author 	  Florian Nitschmann <florian.nitschmann@parcydo.com>
+ * @license	  MIT-License (MIT) <http://www.opensource.org/licenses/mit-license.php>
+ * @link	    http://pgridcss.com
+ * @package   pGrid
+ * @version	  0.2 
+ */
+@media all {
+  /*
+   * @fonts
+   * @affected Firefox 3.1+, Safari, Chrome, Webkit, Opera 10.5+
+   * @valid yes
+   *
+   * NOTE: All these fonts are imported from the Google font directory,
+   * look at http://code.google.com/webfonts for more information
+   */
+   
+   /*Cardo*/
+   @font-face {
+     name: 'Cardo';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Cardo'), url('http://themes.googleusercontent.com/font?kit=-wDXL3w4Eh8e-nbTunW3Bg') format('truetype');
+   }
+   /*Droid Sans*/
+   @font-face {
+     name: 'Droid Sans';
+       font-style: normal;
+       font-weight: normal;
+       src: local('Droid Sans'), url('http://themes.googleusercontent.com/font?kit=POVDFY-UUf0WFR9DIMCU8g') format('truetype');
+   }
+   /*Droid Serif*/
+   @font-face {
+     name: 'Droid Serif';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Droid Serif'), url('http://themes.googleusercontent.com/font?kit=70P0G8gxVDIV6F9om0DsKg') format('truetype');
+  }
+  /*Inconsolata*/
+  @font-face {
+    name: 'Inconsolata';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Inconsolata'), url('http://themes.googleusercontent.com/font?kit=J_eeEGgHN8Gk3Eud0dz8jw') format('truetype');
+  }
+  
+  
+}
+
+@media screen, projection, tv {
+ 	/*
+ 	 * Rounded borders elements | Elemente mit abgerundeten Ecken
+ 	 * 
+ 	 * @effect
+ 	 * @affected Firefox, Safari, Chrome, Konqueror, Webkit, Opera (< Version 10)
+ 	 * @valid no
+ 	 */
+   
+   /*2 pixel*/
+    .rounded_3 {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+  }
+ 	/*3 pixel*/
+	.rounded_3 {
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-khtml-border-radius: 3px;
+		-o-border-radius: 3px;
+		border-radius: 3px;
+	}
+	/*4 pixel*/
+	.rounded_4 {
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		-khtml-border-radius: 4px;
+		-o-border-radius: 4px;
+		border-radius: 4px;
+	}
+	/*5 pixel*/
+	.rounded_5 {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-khtml-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+	}
+	/*10 pixel*/
+	.rounded_10 {
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-khtml-border-radius: 10px;
+		-o-border-radius: 10px;
+		border-radius: 10px;
+	}
+	.rounded_15 {
+		-moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
+		-khtml-border-radius: 15px;
+		-o-border-radius: 15px;
+		border-radius: 15px;
+		border: 1px #333 solid;
+	}
+ 	/*
+	 * Text shadow | Text Schatten
+	 * 
+	 * @effect
+	 * @affected Firefox 3.1+, Safari 1+, Opera 9.5+, Konqueror, Webkit, iCab
+	 * @valid no
+	 */
+	.text_shadow {
+		font-weight: bold;
+		text-shadow: 1px 1px 1px #999;
+	}
+	.text_shadow_2 {
+		font-weight: bold;
+		text-shadow: 2px 2px 2px #999;
+	}
+	.text_shadow_3 {
+		font-weight: bold;
+		text-shadow: 3px 3px 3px #999;
+	}
+	.text_shadow_4 {
+		font-weight: bold;
+		text-shadow: 4px 4px 4px #999;
+	}
+	.text_shadow_5 {
+		font-weight: bold;
+		text-shadow: 5px 5px 5px #999;
+	}
+	/*
+	 * Box shadow | Box Schatten
+	 * 
+	 * @effect 
+	 * @affected Firefox 3.1+, Safari 3.1+, Webkit
+	 * @valid no
+     */
+     .box_shadow_2 {
+     	box-shadow: 2px 2px 2px #999;
+     	-moz-box-shadow: 2px 2px 2px #999;
+     	-webkit-box-shadow: 2px 2px 2px #999:
+     }
+     .box_shadow_3 {
+     	box-shadow: 3px 3px 3px #999;
+     	-moz-box-shadow: 3px 3px 3px #999;
+     	-webkit-box-shadow: 3px 3px 3px #999:
+     }
+     .box_shadow_4 {
+     	box-shadow: 4px 4px 4px #999;
+     	-moz-box-shadow: 4px 4px 4px #999;
+     	-webkit-box-shadow: 4px 4px 4px #999:
+     }
+     .box_shadow_5 {
+     	box-shadow: 5px 5px 5px #999;
+     	-moz-box-shadow: 5px 5px 5px #999;
+     	-webkit-box-shadow: 5px 5px 5px #999:
+     }
+   /*
+    * Rotation (effects that a element is rotated) | Rotation (bewirkt die Neigung/Drehung eines Elements)
+	  *
+	  * @effect
+	  * @affected Firefox 3.2+, Safari 3.1+, Webkit
+	  * @valid no
+	  */
+	  
+	  /*Rotation -5°*/
+	  .rotate_5_m {
+      -moz-transform: rotate(-5deg);
+      -webkit-transform: rotate(-5deg);
+    }
+    /*Rotation +5°*/
+    .rotate_5_p {
+      -moz-transform: rotate(5deg);
+      -webkit-transform: rotate(5deg);
+    }
+	  /*Rotation -10°*/
+	  .rotate_10_m {
+	  	-moz-transform: rotate(-10deg);
+	  	-webkit-transform: rotate(-10deg);
+	  }
+	  /*Rotation +10°*/
+	  .rotate_10_p {
+	  	-moz-transform: rotate(10deg);
+	  	-webkit-transform: rotate(10deg);
+	  }
+	  /*Rotation -15°*/
+	  .rotate_15_m {
+	  	-moz-transform: rotate(-15deg);
+	  	-webkit-transform: rotate(-15deg);
+	  }
+	  /*Rotation +15°*/
+	  .rotate_15_p {
+	  	-moz-transform: rotate(15deg);
+	  	-webkit-transform: rotate(15deg);
+	  }
+	  /*Rotation -20°*/
+	  .rotate_20_m {
+	  	-moz-transform: rotate(-20deg);
+	  	-webkit-transform: rotate(-20deg);
+	  }
+	  /*Rotation +20°*/
+	  .rotate_20_p {
+	  	-moz-transform: rotate(20deg);
+	  	-webkit-transform: rotate(20deg);
+	  }
+	  /*Rotation -25°*/
+	  .rotate_25_m {
+	  	-moz-transform: rotate(-25deg);
+	  	-webkit-transform: rotate(-25deg);
+	  }
+	  /*Rotation +25°*/
+	  .rotate_25_p {
+	  	-moz-transform: rotate(25deg);
+	  	-webkit-transform: rotate(25deg);
+	  }
+	  
+}

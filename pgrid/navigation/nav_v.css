@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/**
+ * pGrid | (X)HTML/CSS Framework
+ * 
+ * Vertical list navigation | Vertikale Listen Navigation
+ *
+ * @copyright Copyright 2008-2010, Parcydo <http://parcydo.com>
+ * @author    Florian Nitschmann <florian.nitschmann@parcydo.com>
+ * @license   MIT-License (MIT) <http://www.opensource.org/licenses/mit-license.php> 
+ * @link      http://pgridcss.com
+ * @package   pGrid
+ * @version   0.2 
+ */
+@media screen, projection, tv {
+	
+	.v_list {
+		margin: 0 0 2% 0;
+		width: 100%;
+		list-style-type: none;
+		overflow: hidden;
+		border-bottom: 1px #897d78 solid;
+	}
+	
+	.v_list ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+	
+	.v_list ul li {
+		float: left;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		display: block;
+	}
+	
+	.v_list a, .v_list strong {
+		padding: 2% 0 2% 10%;
+		display: block;
+		text-decoration: none;
+		border-bottom: 1px #897d78 solid;
+	}
+	
+	.v_list a, .v_list a:visited {
+		color: #5e5957;
+	}
+	
+	.v_list li span {
+		display: block;
+		font-weight: bold;
+		border-bottom: 1px #897d78 solid; 
+	}
+	/*active list element | Aktives Listenelement*/ 
+	.v_list li.active {
+		font-weight: bold;
+	}
+	
+}

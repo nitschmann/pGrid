@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*
+ * pGrid | (X)HTML/CSS Framework
+ * 
+ * Main stylesheet | Hauptstylesheet  
+ * 
+ * @copyright	Copyright 2008-2010, Parcydo <http://parcydo.com>
+ * @author 	  Florian Nitschmann <florian.nitschmann@parcydo.com> 
+ * @license	  MIT-License (MIT) <http://www.opensource.org/licenses/mit-license.php>
+ * @link	    http://pgridcss.com
+ * @package   pGrid
+ * @version	  0.2 
+ */
+
+/*Import the core styles | Basis-Stylesheet einbinden*/
+@import url('/pgrid/core/core.css');
+/*Import navigation layout | Navigations-Layout einbinden*/
+@import url('/pgrid/navigation/nav.css');
+/*Import screen layout | Seiten-Layout einbinden*/
+@import url('/css/layout/layout.css');
+/*Import content layout | Inhaltslayout einbinden*/
+@import url('/pgrid/layout/content.css');
+/*Import print layout | Druck-Layout einbinden*/
+@import url('/pgrid/print/print.css');
+

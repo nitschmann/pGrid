@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/*
+ * pGrid | (X)HTML/CSS Framework
+ * 
+ * Standarts for contents | Standarts für Inhalte
+ * 
+ * @copyright	Copyright 2008-2010, Parcydo <http://parcydo.com>
+ * @author		Florian Nitschmann <florian.nitschmann@parcydo.com>
+ * @license		MIT-License (MIT) <http://www.opensource.org/licenses/mit-license.php>
+ * @link		  http://pgridcss.com
+ * @package 	pGrid
+ * @version		0.2
+ */
+@media all {
+	/*
+	 * @section global-content-settings
+	 * 
+	 * Global settings for fonts | Globale Einstellungen für Schriften
+	 */
+	
+	/*Set all font sizes to standart | Alle Schriftgrößen auf Standart setzen*/
+	html {
+		font-size: 100%;
+	}
+	/*Body gets standart font size of 12px | Der body erhält eine Standart-Schriftgröße von 12 Pixeln*/
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 80%;
+		color: #333;
+	}
+	/*------------------------------------------------------------------------------------------------------*/
+	/*Headings | Überschriften*/
+	h1, h2, h3, h4, h5, h6 {
+		margin: 0.5% 0 0.5% 0;
+		font-family: inherit;
+		font-weight: normal;
+		color: #000;
+	}
+	/*Sizes for headings | Größen für Überschriften*/
+	h1 {
+		font-size: 250%;
+	}
+	h2 {
+		font-size: 200%;
+	}
+	h3 {
+		font-size: 150%;
+	}
+	h4  {
+		font-size: 135%;
+	}
+	h5, h6 {
+		font-size: 118%;
+	}
+	/*------------------------------------------------------------------------------------------------------*/
+	/*Lists | Listen*/
+	ul, ol, dl {
+		margin: 0 0 0.5% 2%;
+		line-height: 100%;
+	}
+	ul {
+		list-style-type: disc;
+	}
+	ul ul {
+		margin-bottom: 0;
+	}
+	li {
+		margin-left: 1.5%;
+		line-height: 150%;
+	}
+	
+	ol {
+		list-style-type: decimal;
+	}
+	ol ol {
+		margin-bottom: 0;
+		list-style-type: upper-roman;
+	}
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*Text formatting | Text Formatierung*/
+	p {
+		margin: 1.5% 0 0.6% 0;
+		line-height: 120%;
+	}
+	
+	blockquote, cite {
+		font-family: "Georgia", "Times", serif;
+	}
+	blockquote {
+		margin: 0 0 0.6% 0.8%;
+		color: #666;
+	}
+	
+	b, strong {
+		font-weight: bold;
+	}
+	
+	em, i {
+		font-style: italic;
+	}
+	
+	big {
+		font-size: 120%;
+	}
+	small {
+		font-size: 90%;
+	}
+	
+	pre {
+		margin: 0 0 0.6% 0;
+		line-height: 100%;
+	}
+	pre, code {
+		font-size: 100%;
+		color: #161616;
+	}
+	
+	hr {
+		margin: 0 0 0.5% 0;
+		padding: 0 0 0.5% 0;
+		color: #fff;
+		border: 0;
+		border-bottom: 1px #000 solid;
+	}
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*
+	 * Tables | Tabellen
+	 * 
+	 * @section content-tables
+	 */
+	table {
+		margin: 0.5% 0 0.6% 0;
+		width: auto;
+		border-top: 1px #666 solid;
+		border-bottom: 1px #666 solid;
+	}
+	table.full {
+		width: 100%;
+	}
+	
+	th, td {
+		padding: 0.8%;
+	} 
+	
+	tbody th {
+		text-align: left;
+		border-bottom: 1px #fff solid; 
+	}
+	tbody td {
+		border-bottom: 1px #000 solid;
+	}
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*Links*/
+	a {
+		text-decoration: none;
+	}
+
+	a:active, a:focus, a:hover {
+		text-decoration: underline;
+	}
+	
+}

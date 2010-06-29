@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*
+ * pGrid | (X)HTML/CSS Framework
+ * 
+ * Template base for designing a screen layout | Vorlage zur Gestalltung eines Screenlayouts
+ * 
+ * @copyright	Copyright 2008-2010, Parcydo <http://parcydo.com> 
+ * @author    Florian Nitschmann <florian.nitschmann@parcydo.com>
+ * @license   MIT-License (MIT) <http://www.opensource.org/licenses/mit-license.php>
+ * @link		  http://pgridcss.com
+ * @package 	pGrid
+ * @version		0.2
+ */
+
+@media screen, projection, tv {
+	/*Margins and backgrounds of the page | Abstände und Hintergründe der gesamten Seite*/
+	body { }
+	/*Width, Backgrounds, Border | Breite, Hintergründe, Rahmen*/
+	.page_margins { }
+	/*Designing of the main layout elements | Gestalltung der Hauptelemente*/
+	#header, header { }
+	
+	#t_nav { }
+	
+	#nav, nav { }
+	
+	#page, article { }
+	
+	#footer, footer { }
+	
+}

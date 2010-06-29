@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/*
+ * pGrid | (X)HTML/CSS Framework
+ * 
+ * pGrid elemnets stylesheet 
+ * pGrid Elemente Stylesheet 
+ * 
+ * @copyright	Copyright 2008-2010, Parcydo <http://parcydo.com> 
+ * @author	  Florian Nitschmann <florian.nitschmann@parcydo.com>  
+ * @license	  MIT-License (MIT) <http://www.opensource.org/licenses/mit-license.php>
+ * @link	    http://pgridcss.com
+ * @package   pGrid
+ * @version	  0.2
+ */
+@media screen, projection, tv {
+	/*Textalingament of #page and article | Textausrichtung für #page und article*/
+	#page, article {
+		text-align: left;
+	}
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*Lists without any list-style | Listen ohne jeglichen list-style*/
+	ul.no_list, li.no_list, .no_list li {
+		list-style-type: none;
+	}
+	/*--------------------------------------------------------------------------------------------------------*/
+	/* Layout Elements
+	 * @section layout
+	 */
+	 #header, #nav, #page, #footer, article, aside, dialog, figure, footer, header, 
+	 hgroup, nav, section {
+	 	display: block;
+	 }
+	 #header, header, #page, page, #footer, footer {
+	 	width: 100%;
+	 }
+	 
+	 #t_nav {
+	 	position: absolute;
+	 	text-align: right;
+	 }
+	 /*Element displayed in the horizontal center | Mittig horizontal angezeigtes Element*/
+	 .center {
+	   margin-left: auto;
+	   margin-right: auto; 
+	 }
+	/*-------------------------------------------------------------------------------------------------------*/
+	/* 
+	* Content Classes 
+	* @section content-classes
+	*/
+	.float_left {
+		margin: 0 1% 0 0.5%;
+		float: left;
+		display: inline;
+	}
+	.float_right {
+		margin: 0 0 1% 1%;
+		float: right;
+		display: inline;
+	}
+	/*Hiden element | Nicht angezeigtes Element*/
+	.hide {
+		display: none !important;
+	}
+	/*Text aligns | Textausrichtungen*/
+	.t_left {
+		text-align: left;
+	}
+	.t_right {
+		text-align: right;
+	}
+	.t_center {
+		text-align: center;
+	}
+	.t_justify {
+		text-align: justify;
+	}
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*
+	 * Form elements design | Gestalltung der Form Element
+	 *
+	 * @section forms
+	 */
+	form fieldset {
+		padding: 5px 0 0 5px;
+		border: 1px solid #ccc;
+	}
+	form fieldset legend {
+		padding: 0 0 0 5px;
+		font-size: 1.53em;
+	}
+	/*Input types formation | Input Typen Formation*/
+	form input[type=email], form input[type=text], form input[type=url], form input[type=password] {
+		margin-bottom: auto;
+		padding: 5px 0 1px 5px;
+		height: 20px;
+		border: 1px solid #ccc;
+	}
+
+}
+

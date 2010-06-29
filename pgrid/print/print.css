@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/**
+ * pGrid | (X)HTML/CSS Framework
+ * 
+ * pGrid print layout | pGrid Druck Layout 
+ * 
+ * @copyright	Copyright 2008-2010, Parcydo <http://parcydo.com>
+ * @author    Florian Nitschmann <florian.nitschmann@parcydo.com> 
+ * @license	  MIT-License (MIT) <http://www.opensource.org/licenses/mit-license.php>
+ * @link	    http://pgridcss.com
+ * @package 	pGrid
+ * @version	  0.2
+ */
+@media print {
+	/*
+	 * @section print | Druck
+	 */
+	
+	/*Changing of the font size | Aänderung der Schriftgröße*/
+	body {
+		font-size: 11pt;
+	}
+	/*Hide serveral and unneeded containers in the print layout | Abschaltung von diversen und nicht benötigten Containern beim Druck Layout*/
+	#nav, nav, #t_nav, #search, #footer, footer  {
+		display: none;
+	}
+	/*-----------------------------------------------------------------------------------------------------------*/
+	/*Show printing class | Druck-Klasse anzeigen*/	
+	.print {
+		visibility: visible !important;
+		position: static;
+		margin: 0;
+	}
+	/*Class for hiding elements for print | Klasse um Elemente beim Drucken zu verbergen*/
+	.noprint {
+		display: none !important;
+	}
+	/*-----------------------------------------------------------------------------------------------------------*/
+	/*Avoid page breaks after headings | Vermeide Seitenumbrüche nach Überschriften*/
+	h1, h2, h3, h4, h5, h6 {
+	  color: inherit;
+	  font-size: auto;
+		page-break-before: auto;
+		page-break-after: avoid;
+	}
+	/*-----------------------------------------------------------------------------------------------------------*/
+	/*Show subelements in block | Anzeige der Subelemente als Block*/
+	.e5l, .e10l, .e15l, .e20l, .e25l, .e30l, .e33l, .e35l, .e38l, .e40l, .e45l, .e50l, .e55l, .e60l, 
+	.e62l, .e65l, .e66l, .e70l, .e75l, .e80l, .e85l, .e90l, .e95l, .e5r, .e10r, .e15r, .e20r, .e25r, .e30r, .e33r, .e35r, .e38r, .e40r, .e45r, .e50r, .e55r, .e60r, 
+	.e62r, .e65r, .e66r, .e70r, .e75r, .e80r, .e85r, .e90r, .e95r {
+		display: block;
+	}
+	/*Change color and style of links | Farbe und Eigenschafen von Links ändern*/
+	a, a:active, a:focus, a:hover, a:visited {
+	  color: blue;
+	  text-decoration: underline;
+	}
+	 
+}

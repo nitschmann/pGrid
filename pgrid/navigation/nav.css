@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*
+ * pGrid | (X)HTML/CSS Framework
+ * 
+ * pGrid navigation elements | pGrid Navigationselemente
+ * 
+ * @copyright	Copyright 2008-2010, Parcydo <http://parcydo.com> 
+ * @author		Florian Nitschmann <florian.nitschmann@parcydo.com>   
+ * @license   MIT-License (MIT) <http://www.opensource.org/licenses/mit-license.php>
+ * @link		  http://pgridcss.com
+ * @package 	pGrid
+ * @version		0.2 
+ */
+
+/*Import horizontal list navigation | Horizontale Listen Navigation einbinden*/
+@import url('nav_h.css');
+/*Import vertical list navigation | Vertikale Listen Navigation einbinden*/
+@import url('nav_v.css');
+
+@media screen, projection, tv {
+	/*---------------------------------------------------------------------------------------------*/
+	/*Fix the position and width of the #nav element | Festlegung der Position und Breite des #nav Elements*/
+	#nav, nav {
+		position: relative;
+		width: 100%;
+	}
+
+}
+
