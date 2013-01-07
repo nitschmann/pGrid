@@ -14,8 +14,7 @@ but not all. If you like to work with classical (X)HTML and CSS2.1/CSS2 look at 
 
 1. License:
 The pGrid | (X)HTML/CSS Framework is a product of Parcydo (http://parcydo.com). It stands under the MIT License
-(http://www.opensource.org/licenses/mit-license.php). To get information about the usage, distribution and changing look at LICENSE or under
-http://pgridcss.com/license
+(http://www.opensource.org/licenses/mit-license.php). 
 
 2. Support
 pGrid is a free and opensource framework. To get support read the PDF files in the folder /doc or look at http://pgridcss.com/doc
@@ -48,23 +47,23 @@ DEUTSCH
 
 Willkommen zum pGrid | (X)HTML/CSS Framework. pGrid ist ein einfaches Framwork um vielspaltige Layouts mit wenig Code zu schreiben und gestallten.
 Das Framwork bietet viele Optionen um Layouts schnell mit wenig HTML und CSS zu entwickeln. Mit den von pGrid gegebenen Optionen hat man viele
-Möglichkeiten, wie zum Beispiel HTML5 und CSS3.
+Mï¿½glichkeiten, wie zum Beispiel HTML5 und CSS3.
 
-(HINWEIS: Die aktuelle Version (0.2) ist darauf ausgelegt mit HTML5 und CSS3 zu arbeiten. Diese Features werden schon von vielen Browsern unterstützt,
+(HINWEIS: Die aktuelle Version (0.2) ist darauf ausgelegt mit HTML5 und CSS3 zu arbeiten. Diese Features werden schon von vielen Browsern unterstï¿½tzt,
 jedoch noch nicht von allen. Wenn Sie mit klassichen (X)HTML und CSS2.1/CSS2 arbeiten wollen schauen unter http://github.com/parcydo/pGrid/downloads nach
 anderen pGrid Versionen.)
 
 1. Lizenz
 Das pGrid | (X)HTML/CSS Framework ist ein Produkt von Parcydo (http://parcydo.com). Es steht unter der MIT License
-(http://www.opensource.org/licenses/mit-license.php). Um Informationen über Verwendung, Verbreitung und Änderung zu bekommen schauen Sie sich  
+(http://www.opensource.org/licenses/mit-license.php). Um Informationen ï¿½ber Verwendung, Verbreitung und ï¿½nderung zu bekommen schauen Sie sich  
 die Datei LICENSE an, oder unter http://pgridcss.com/license nach.
 
-2. Unterstützung
-pGrid ist ein freies und quelloffenes Framwork. Um Unterstützung zu erhalten lesen die PDF Datei im Ordner /doc oder schauen Sie unter
+2. Unterstï¿½tzung
+pGrid ist ein freies und quelloffenes Framwork. Um Unterstï¿½tzung zu erhalten lesen die PDF Datei im Ordner /doc oder schauen Sie unter
 http://pgridcss.com/doc.
 
 3. Changelog
-Jede neue Version bringt viele Änderungen und behebt Fehler. Um diese einzusehen lesen Sie in der Datei CHANGELOG nach.
+Jede neue Version bringt viele ï¿½nderungen und behebt Fehler. Um diese einzusehen lesen Sie in der Datei CHANGELOG nach.
 
 4. Inhalt
 
@@ -75,11 +74,11 @@ Jede neue Version bringt viele Änderungen und behebt Fehler. Um diese einzusehen
   Dies ist die komplette Dokumentation von pGrid in Deutsch und Englisch. Sie kommt als PDF Datei.
 
 * /examples
-  Zeigt und gibt Ihnen einige Beispiele was mit pGrid möglich ist. All diese Layouts sind frei in der Benutzung und stehen unter der MIT License.
-  Sie können diese in eigenen Projekten verwenden wenn Sie das möchten.
+  Zeigt und gibt Ihnen einige Beispiele was mit pGrid mï¿½glich ist. All diese Layouts sind frei in der Benutzung und stehen unter der MIT License.
+  Sie kï¿½nnen diese in eigenen Projekten verwenden wenn Sie das mï¿½chten.
 
 * /src
-  Das ist der Framwork Ordner. Hier befinden sich alle wichtigen Dateien. Sie können diesen Ordner direkt auf Ihren Webserver laden.
+  Das ist der Framwork Ordner. Hier befinden sich alle wichtigen Dateien. Sie kï¿½nnen diesen Ordner direkt auf Ihren Webserver laden.
 
 * /tools
   Das sind einge "extra tools" zur besseren Entwicklung von Webseiten.
